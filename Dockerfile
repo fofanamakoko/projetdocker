@@ -11,8 +11,7 @@ RUN npm install
 
 COPY .  .
 
-
-
 EXPOSE 4000
+ENTRYPOINT [ "node" ]
 
 CMD  ["npm","start"]
